@@ -7,6 +7,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(${PROJECT_NAME}
   test/main.cpp
+
+  test/common/basic_types.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
