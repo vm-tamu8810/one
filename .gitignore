@@ -1,0 +1,7 @@
+# Build
+build/
+bin/
+out/
+
+# Visual Studio
+.vs/
